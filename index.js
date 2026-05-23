@@ -34,15 +34,13 @@ client.on('messageCreate', async (message) => {
     }
 
     const embed = new EmbedBuilder()
-      .setColor('#5865F2')
-      .setTitle('📌 구매 양식')
-      .setDescription(`
-구매 아이템:
-수량:
-가격:
-DM 주세요
-      `);
+  .setColor('#5865F2')
+  .setTitle('닉네임 양식')
+  .setDescription(`
+닉네임#테그 전시즌-현시즌 최고티어 주라인/부라인
 
+ex) 또 우냥#kr2 D TOP/AD
+  `);
     stickyMessage = await message.channel.send({
       embeds: [embed]
     });
