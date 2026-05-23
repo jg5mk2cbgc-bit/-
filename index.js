@@ -37,7 +37,7 @@ client.on('messageCreate', async (message) => {
   .setColor('#5865F2')
   .setTitle('닉네임 양식')
   .setDescription(`
-닉네임#테그 전시즌-현시즌 최고티어 주라인/부라인
+닉네임#테그 15시즌 이후 최고티어 주라인/부라인
 
 ex) 또 우냥#kr2 D TOP/AD
   `);
